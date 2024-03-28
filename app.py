@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-from textblob import TextBlob
 import google.generativeai as palm
 palm.configure(api_key="AIzaSyCE0Wqenv4mWGbPIY3OXs-pxQv_B6FyPfs") #do not show this in public domain
 model = {'model':"models/chat-bison-001"}
